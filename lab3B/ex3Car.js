@@ -1,4 +1,4 @@
-var Car = /** @class */ (function () {
+let Car = /** @class */ (function () {
     function Car(name) {
         this.name = name;
         this.acceleration = 0;
@@ -11,7 +11,7 @@ var Car = /** @class */ (function () {
     };
     return Car;
 }());
-var car = new Car("BMW");
+let car = new Car("BMW");
 car.honk(); // BMW is saying: Toooooooooot!
 console.log(car.acceleration); // 0
 car.accelerate(60);

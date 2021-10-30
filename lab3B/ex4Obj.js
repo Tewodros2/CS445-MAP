@@ -1,8 +1,8 @@
-var baseObject = {
+let baseObject = {
     width: 0,
     length: 0
 };
-var rectangle = Object.create(baseObject);
+let rectangle = Object.create(baseObject);
 rectangle.width = 5;
 rectangle.length = 2;
 rectangle.calcSize = function () {
